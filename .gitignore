@@ -1,0 +1,22 @@
+# Bases de datos (Para inventario.db)
+*.db
+*.sqlite
+
+# Logs y basura técnica
+*.log
+npm-debug.log*
+
+# Python (Archivos temporales de ejecución)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Seguridad y Secretos (VITAL para Cloud)
+.env
+*.key
+*.pem
+id_rsa*
+
+# Archivos de sistema (antiX/Linux y Mac)
+.DS_Store
+thumbs.db

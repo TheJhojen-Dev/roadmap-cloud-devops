@@ -1,0 +1,5 @@
+{
+	"Nombre del servidor": "server-popeyos",
+	"IP": "192.168.1.50",
+	"Puertos abiertos": ["80", "443", "22"],
+}
