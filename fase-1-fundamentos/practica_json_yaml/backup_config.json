@@ -1,0 +1,8 @@
+{
+	"destino": "/mnt/backup_server",
+	"retencion_dias": 30,
+	"compresion":{
+		"algoritmo": "gzip",
+		"activo": true
+		}
+}

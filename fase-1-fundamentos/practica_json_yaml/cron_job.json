@@ -1,0 +1,10 @@
+{
+	"job_name": "db-daily-backup",
+	"schedule": "0 2 * * *",
+	"enable": true,
+	"retry_count": 3,
+	"notifications": {
+		"email": "admin@cappuccino.local",
+		"slack_channel": "#ops-alerts"
+		}	
+}

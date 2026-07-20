@@ -1,0 +1,9 @@
+{
+	"servidor": "vps-node-maturin",
+	"os": "Ubuntu 24.04",
+	"puertos": [22,88,443],
+	"hardware": {
+		"nucleos_cpu": 4,
+		"memoria_ram": 8
+		}
+}

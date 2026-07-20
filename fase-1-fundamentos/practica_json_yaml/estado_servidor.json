@@ -1,0 +1,9 @@
+{
+  "service_name": "web-server-api",
+  "replicas": 3,
+  "features": [
+    "http2",
+    "health-check"
+  ],
+  "timeout": 45
+}

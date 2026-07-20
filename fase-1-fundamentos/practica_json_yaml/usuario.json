@@ -1,0 +1,6 @@
+{
+	"username": "jhojen",
+	"uid": 1001,
+	"sudoer": false,	
+	"llaves_autorizadas": ["ssh-ed25519 jhojen@pc"]
+}

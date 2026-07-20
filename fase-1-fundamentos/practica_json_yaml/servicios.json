@@ -1,0 +1,15 @@
+{
+	"entorno": "produccion",
+	"servicios": [
+	{
+		"nombre": "web-nginx",
+		"imagen": "nginx:alpine",
+		"puertos": [80,443]
+		}
+		,{
+		"nombre": "cache-redis",
+		"imagen": "redis:7-alpine",
+		"puertos": [6379]
+		}
+	]
+}

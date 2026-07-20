@@ -1,0 +1,6 @@
+{
+	"servicio": "disk-monitor",
+	"nivel": "CRITICAL",
+	"uso_porcentaje": 92,
+	"directorios_criticos": ["/var/log","/home"]
+}

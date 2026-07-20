@@ -1,0 +1,10 @@
+{
+	"Nombre": "Nicolas",
+	"Edad":18,
+	"¿Eres estudiante?": true,
+	"Habilidades": ["Git","Cloud","Linux"],
+	"Ubicacion": {
+		"Ciudad": "Caracas",
+		"email": "nicolas@gmail.com"
+		}
+}

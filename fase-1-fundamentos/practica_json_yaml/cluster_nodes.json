@@ -1,0 +1,16 @@
+{
+	"cluster_name": "k8s-proud-cluster",
+	"nodes": [
+	{
+		"hostname": "node-01",
+		"role": "master",
+		"status": "Ready"
+		}
+	,{
+		"hostname": "node-02",
+		"role": "worker",
+		"status": "Ready",
+		"cpu_cores": 8
+		}
+	]
+}

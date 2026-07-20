@@ -1,0 +1,12 @@
+{
+	"origen_path": "/var/log/nginx/access.log",
+	"destino_config": {
+		"url_endpoint": "[https://logs.cappuccino.local/v1/receiver](https://logs.cappuccino.local/v1/receiver)",
+			
+		"autenticacion": {
+			"tipo": "BearerToken",
+			"token": "secret_token_12345",
+			"rotacion_activa": true
+			}
+				}
+}
