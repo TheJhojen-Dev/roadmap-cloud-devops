@@ -1,0 +1,5 @@
+hostname: vps-maturin
+ip_privada: "192.168.1.15"
+puerto_ssh: 22
+servicio_activo: true
+version_so: "24.04"

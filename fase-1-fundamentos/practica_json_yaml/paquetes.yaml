@@ -1,0 +1,6 @@
+nodo: nodo-desarrollo
+paquetes:
+  - nginx
+  - python3
+  - git
+  - curl

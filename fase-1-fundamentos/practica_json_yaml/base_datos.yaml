@@ -1,0 +1,5 @@
+servicio: postgres-db
+configuracion:
+  modo: produccion
+  puerto: 5432
+  max_conexiones: 100
