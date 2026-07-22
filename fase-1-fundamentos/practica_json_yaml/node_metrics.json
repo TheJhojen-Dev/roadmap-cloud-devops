@@ -1,0 +1,13 @@
+{
+	"hostname": "node-antix-01",
+	"recursos":{
+		"cores_cpu": 2,
+		"ram_gb": 4.0
+		},
+	"servicios_monitoreados": ["nginx","postgresql","sshd"],
+	"notificaciones":{
+		"canal": "telegram",
+		"alerta_critica_activa": true,
+		"limite_alerta_cpu": 85
+		}
+}

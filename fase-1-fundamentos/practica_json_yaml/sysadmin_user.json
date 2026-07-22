@@ -1,0 +1,10 @@
+{
+	"usurio": "jhojen",
+	"rol": "devops_admin",
+	"acceso_sudo": true,
+	"comandos_permitidos": ["/usr/bin/apt","/usr/bin/docker","/usr/bin/systemctl"],
+	"detalles_conexion": {
+		"ip_destino": "10.0.0.50",
+		"algoritmo_SSH": "ed25519"
+		}
+}
