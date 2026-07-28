@@ -1,0 +1,11 @@
+{
+	"Version": "2026-07-24",
+	"Statement": [
+	{
+		"Sid": "AllowS3ReadAccess",
+		"Effect": "Allow",
+		"Action": ["s3:GetObject", "s3:ListBucket"],
+		"Resource": "arn:aws:s3:::app-data-bucket/*" 
+	}
+	]
+}

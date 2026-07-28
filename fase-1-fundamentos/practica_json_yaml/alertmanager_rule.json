@@ -1,0 +1,15 @@
+{
+	"nombre_alerta": "HighMemoryUsage",
+	"estado_activo": true,
+	"nivel_seguridad": "warning",
+	"servidor_afectado": {
+		"hostname": "db-primary-01",
+		"ip_privada": "10.0.2.15",
+		"entorno": "produccion"
+	},
+	"metricas": {
+		"umbral_porcentaje": 85,
+		"valor_actual": 88.7
+		},
+	"etiquetas": ["database","critical-service","postgres"]
+}

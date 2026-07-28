@@ -1,0 +1,14 @@
+---
+all:
+  vars:
+    ansible_user: devops
+    ssh_port: 22
+  host:
+    servidor_1:
+      name: web-01
+      ip: 192.168.1.10
+      role: frotend
+    servidor_2:
+      name: db-01
+      ip: 192.168.1.20
+      role: database

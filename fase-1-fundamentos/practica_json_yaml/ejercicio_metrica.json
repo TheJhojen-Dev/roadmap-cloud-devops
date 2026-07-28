@@ -1,0 +1,11 @@
+{
+	"hostname": "node-worker-01",
+	"node_id": 1024,
+	"is_active": true,
+	"cpu_usage_percent": 45.8,
+	"allowed_ports": [22, 80, 443],
+	"memory": {
+		"total_mb": 8192,
+		"used_mb": 3420
+		}	
+}

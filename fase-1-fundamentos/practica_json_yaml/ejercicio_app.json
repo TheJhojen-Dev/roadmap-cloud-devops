@@ -1,0 +1,12 @@
+{
+	"app_name": "auth-api",
+	"environment": "production",
+	"replicas": 3,
+	"debug_mode": false,
+	"database":{
+		"host": "db.internal.net",
+		"port": 5432,
+		"ssl_enabled": true,
+		"max_connections": 50
+		}
+}

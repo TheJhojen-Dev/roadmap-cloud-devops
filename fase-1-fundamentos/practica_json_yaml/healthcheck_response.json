@@ -1,0 +1,22 @@
+{
+	"estado_sistema": "degraded",
+	"tiempo_actividad": 172800,
+	"checks": [
+	{
+		"nombre": "database_postgresql",
+		"estado": "healthy",
+		"latencia_ms": 4.2
+	},
+	{
+		"nombre": "redis_cache",
+		"estado": "unhealthy",
+		"latencia_ms": 0,
+		"error": "Connection refused on port 6379"
+	},
+	{
+		"nombre": "storage_s3",
+		"estado": "healthy",
+		"latencia_ms": 45.1
+		}
+	]
+}

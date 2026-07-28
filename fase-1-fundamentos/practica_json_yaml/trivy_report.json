@@ -1,0 +1,25 @@
+{
+	"imagen_analizada": "app-api:v2.1.0",
+	"fecha_escaneo": "2026-07-25",
+	"control_seguridad": false,
+	"resumen_hallazgos":{
+		"criticas": 1,
+		"altas": 3,
+		"medias": 12,
+		"bajas": 0
+		},
+	"vulnerabilidades_encontradas": [
+	{
+		"id": "CVE-2024-1234",
+		"paquete": "openssl",
+		"version_instalada": "1.1.1t",
+		"version_fijada": "1.1.1w"
+	},
+	{
+		"id": "CVE-2024-5678",
+		"paquete": "curl",
+		"version_instalada": "7.88.1",
+		"version_fijada": "8.0.0"		
+		}
+	]
+}

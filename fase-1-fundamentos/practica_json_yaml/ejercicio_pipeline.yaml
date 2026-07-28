@@ -1,0 +1,15 @@
+---
+name: Build_and_Test_Pipeline
+on:
+  - push
+  - pull_request
+jobs:
+  linter:
+    runs_on: ubuntu-latest
+    steps:
+      paso_1:
+        name: Checkout_code
+        uses: actions/checkout@v3
+      paso_2:
+        name: Validate_YAML_files
+        run: yamllint
