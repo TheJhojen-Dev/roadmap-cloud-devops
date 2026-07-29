@@ -1,7 +1,3 @@
-# Bases de datos (Para inventario.db)
-*.db
-*.sqlite3
-
 # Logs y basura técnica
 *.log
 npm-debug.log*
