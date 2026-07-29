@@ -1,0 +1,27 @@
+{
+  "dominio_principal": "api.internal.dev",
+  "puerto_escucha": 443,
+  "ssl_activado": true,
+  "rutas_certificados": {
+    "certificado": "/etc/ssl/certs/api.crt",
+    "llave_privada": "/etc/ssl/private/api.key"
+  },
+  "servidores_backend": [
+    {
+      "ip": "10.0.1.15",
+      "puerto": 8080,
+      "peso": 3,
+      "estado": "active"
+    },
+    {
+      "ip": "10.0.1.16",
+      "puerto": 8080,
+      "peso": 1,
+      "estado": "backup"
+    }
+  ],
+  "rate_limiting": {
+    "rate_per_minute": 120,
+    "burst": 20
+  }
+}

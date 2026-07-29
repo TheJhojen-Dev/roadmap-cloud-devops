@@ -1,0 +1,23 @@
+{
+	"url_registro": "registry.cappuccino.internal",
+	"repositorio": "core-backend",
+	"escaneo_vulnerabilidades":{
+		"vulnerability_scan_on_push": true,
+		"severidad_máxima_bloqueante": "HIGH"
+		},
+	"retention_policy":{
+		"mantener_ultimas_imagenes": 10,
+		"clean_untagged": true,
+		"dias_maximos_antiguedad": 30
+		},
+		"permisos_acceso":[
+		{
+			"rol": "ci-cd-bot",
+			"permisos": ["pull", "push"]
+			},
+		{
+			"rol": "developer",
+			"permisos": ["pull"]
+		}
+	]
+}

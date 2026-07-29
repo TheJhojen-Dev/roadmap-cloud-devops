@@ -1,0 +1,19 @@
+{
+  "identificador_evento": "evt-9842-sec",
+  "timestamp": "2026-07-28T20:40:00Z",
+  "actor": {
+    "usuario": "sysadmin_devops",
+    "ip_origen": "192.168.1.50",
+    "mfa_utilizado": true
+  },
+  "accion": "SecurityGroupRuleAdded",
+  "recurso_afectado": {
+    "id": "sg-0a1b2c3d",
+    "region": "us-east-1",
+    "puerto_abierto": 22
+  },
+  "resultado": {
+    "estado": "SUCCESS",
+    "codigo_http": 200
+  }
+}
