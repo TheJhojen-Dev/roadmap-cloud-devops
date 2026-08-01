@@ -1,0 +1,6 @@
+---
+aplicacion: mi_sistema_web
+puerto: 8080
+variables_entorno:
+  BD_HOST: "127.0.0.1"
+  BD_PORT: 5432
