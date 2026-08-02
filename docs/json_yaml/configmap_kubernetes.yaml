@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-scripts
+data:
+  cleanup.sh: |
+    #!/bin/sh
+    rm -rf /tmp/*.log
+  motd.txt: >
+    Bienvenido al servidor de produccion. Todo cambio realizado
+    en este entorno queda registrado en el sistema de auditoria.

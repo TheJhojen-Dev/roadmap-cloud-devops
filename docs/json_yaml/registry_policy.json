@@ -3,7 +3,7 @@
 	"repositorio": "core-backend",
 	"escaneo_vulnerabilidades":{
 		"vulnerability_scan_on_push": true,
-		"severidad_máxima_bloqueante": "HIGH"
+		"severidad_maxima_bloqueante": "HIGH"
 		},
 	"retention_policy":{
 		"mantener_ultimas_imagenes": 10,

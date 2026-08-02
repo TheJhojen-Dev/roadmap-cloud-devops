@@ -7,7 +7,7 @@ jobs:
   build-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar código fuente
+      - name: Descargar codigo fuente
         uses: actions/checkout@v4
       - name: Configurar entorno Python
         uses: actions/setup-python@v5
