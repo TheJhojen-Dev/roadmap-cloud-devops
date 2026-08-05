@@ -1,0 +1,9 @@
+---
+usuario: operador
+id_usuario: 1001
+roles:
+  - admin
+  - devops
+contacto:
+  correo: admin@sistema.local
+  notificaciones_activas: false

@@ -1,0 +1,9 @@
+---
+motor_db: postgresql
+puerto: 5432
+nombre_db: tienda_db
+conexion_segura: false
+tablas_principales:
+  - usuarios
+  - productos
+  - ventas
